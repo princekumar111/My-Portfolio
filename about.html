@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(45deg, #FF6B6B, #F06595, #845EF7, #5C7CFA, #22B8CF, #20C997);
+            background-size: 300% 300%;
+            animation: gradientAnimation 8s ease infinite;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 50px;
+            color: #333;
+        }
+        
+        .btn-custom {
+            background-color: #FF922B;
+            color: white;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+            border: none;
+            padding: 10px 20px;
+        }
+        
+        .btn-custom:hover {
+            background-color: #D9480F;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="card text-center col-md-8">
+            <h1 class="mb-4">About Me</h1>
+            <p>Hello! I'm <strong>Prince Kumar </strong>, a passionate web developer who loves creating beautiful and functional websites. I enjoy working with modern web technologies and continuously learning to enhance my skills. Apart from coding, I love
+                playing cricket, listening to music, and solving challenging algorithm problems.</p>
+            <hr>
+            <h4>My Skills:</h4>
+            <ul class="list-unstyled">
+                <li>✅ HTML, CSS, JavaScript, Bootstrap</li>
+                <li>✅ React.js, Bootstrap, Full-Stack Development</li>
+                <li>✅ C, C++, Data Structures & Algorithms</li>
+                <li>✅ Problem Solving (LeetCode)</li>
+            </ul>
+            <a href="myportfolio.html" class="btn btn-custom mt-3">Back to Main Page</a>
+        </div>
+    </div>
+</body>
+
+</html>

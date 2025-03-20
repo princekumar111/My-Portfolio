@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- <a href="myportfolio.html">Back to Main Page</a> -->
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(24, 24, 222), rgb(198, 189, 189));
+        }
+        
+        .contact-card {
+            max-width: 500px;
+            margin: 50px auto;
+            background: rgb(223, 231, 222);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            border: 2px solid black;
+        }
+        
+        .contact-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .contact-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .contact-list li {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .contact-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .contact-list i {
+            color: #007bff;
+            font-size: 18px;
+            width: 30px;
+        }
+        
+        .contact-list b {
+            color: #000;
+            font-size: 18px;
+            margin-left: 10px;
+            width: 120px;
+            display: inline-block;
+        }
+        
+        .contact-list a {
+            text-decoration: none;
+            color: #007bff;
+            margin-left: 10px;
+        }
+        
+        .btn-custom {
+            background-color: #FF922B;
+            color: white;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+            border: none;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-card">
+        <div class="contact-title">Contact Information</div>
+        <ul class="contact-list">
+            <li><i class="fas fa-user"></i> <b>Name:</b>Prince Kumar</li>
+            <li><i class="fas fa-phone"></i> <b>Contact No:</b> +91-7856924997</li>
+            <li><i class="fas fa-envelope"></i> <b>Email ID:</b> <a href="mailto:princekumar060420@gmail.com">princekumar060420@gmail.com</a></li>
+            <li><i class="fab fa-linkedin"></i> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/prince-kumar-5667422a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/prince060420</a></li>
+            <li><i class="fab fa-github"></i> <b>GitHub:</b> <a href="https://github.com/princekumar111" target="_blank">github.com/princekumar111</a></li>
+            <li><i class="fas fa-globe"></i> <b>Portfolio:</b> <a href="myportfolio.html" target="_blank">prince785.netlify.app</a></li>
+        </ul>
+        <a href="myportfolio.html" class="btn btn-custom mt-3">Back to Main Page</a>
+    </div>
+</body>
+
+</html>
