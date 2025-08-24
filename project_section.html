@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>About Me</title>
+    <title>My Projects</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body {
@@ -48,6 +48,13 @@
         .btn-custom:hover {
             background-color: #D9480F;
         }
+        
+        .project-img {
+            border-radius: 12px;
+            max-height: 300px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
         /* Top-left back link */
         
         .top-left {
@@ -72,27 +79,39 @@
 </head>
 
 <body>
-
-
     <!-- Top-left Go to Main Page -->
     <a href="index.html" class="top-left">Back to Main Page</a>
 
+    <div class="container d-flex flex-column align-items-center">
 
-    <div class="container d-flex justify-content-center">
+        <!-- Project 1 -->
         <div class="card text-center col-md-8">
-            <h1 class="mb-4">About Me</h1>
-            <p>Hello! I'm <strong>Prince Kumar </strong>, a passionate web developer who loves creating beautiful and functional websites. I enjoy working with modern web technologies and continuously learning to enhance my skills. Apart from coding, I love
-                playing cricket, listening to music, and solving challenging algorithm problems.</p>
+            <h1 class="mb-4">NearbyHelper – Local Service Finder</h1>
+            <p>
+                NearbyHelper connects users with nearby plumbers, electricians, carpenters, and other workers. It allows users to quickly book trusted services while helping workers easily find work opportunities.
+            </p>
             <hr>
-            <h4>My Skills:</h4>
+            <h4>Technologies Used:</h4>
             <ul class="list-unstyled">
-                <li>✅ HTML, CSS, JavaScript</li>
-                <li>✅ React.js, Bootstrap</li>
-                <li>✅ C, C++, Data Structures & Algorithms</li>
-                <li>✅ Problem Solving (LeetCode)</li>
+                <li>✅ React, Bootstrap, Node.js, Express.js, MongoDB</li>
             </ul>
-
+            <a href="https://github.com/princekumar111/NearbyHelper.git" target="_blank" class="btn btn-custom mt-3">View on GitHub</a>
         </div>
+
+        <!-- Project 2 -->
+        <div class="card text-center col-md-8">
+            <h1 class="mb-4">JP Store – eCommerce Website</h1>
+            <p>
+                JP Store is a fully functional eCommerce website. It provides a modern shopping experience with product listing, cart management, and responsive design.
+            </p>
+            <hr>
+            <h4>Technologies Used:</h4>
+            <ul class="list-unstyled">
+                <li>✅ HTML, CSS, JavaScript, Bootstrap</li>
+            </ul>
+            <a href="http://jpstore-ecommerce-website.netlify.app" target="_blank" class="btn btn-custom mt-3">Visit Website</a>
+        </div>
+
     </div>
 </body>
 

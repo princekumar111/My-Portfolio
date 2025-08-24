@@ -80,10 +80,35 @@
             border: none;
             padding: 10px 20px;
         }
+        /* Top-left back link */
+        
+        .top-left {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .top-left:hover {
+            text-decoration: underline;
+        }
+        
+        .top-left::before {
+            content: "← ";
+        }
     </style>
 </head>
 
 <body>
+
+    <!-- Top-left Go to Main Page -->
+    <a href="index.html" class="top-left">Back to Main Page</a>
+
+
     <div class="contact-card">
         <div class="contact-title">Contact Information</div>
         <ul class="contact-list">
@@ -92,9 +117,9 @@
             <li><i class="fas fa-envelope"></i> <b>Email ID:</b> <a href="mailto:princekumar060420@gmail.com">princekumar060420@gmail.com</a></li>
             <li><i class="fab fa-linkedin"></i> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/prince-kumar-5667422a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/prince060420</a></li>
             <li><i class="fab fa-github"></i> <b>GitHub:</b> <a href="https://github.com/princekumar111" target="_blank">github.com/princekumar111</a></li>
-            <li><i class="fas fa-globe"></i> <b>Portfolio:</b> <a href="index.html" target="_blank">prince785</a></li>
+            <li><i class="fas fa-globe"></i> <b>Portfolio:</b> <a href="index.html" target="_blank">princeportfoliowebsite</a></li>
         </ul>
-        <a href="index.html" class="btn btn-custom mt-3">Back to Main Page</a>
+
     </div>
 </body>
 
